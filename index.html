@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Community Certificate Application</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Community Certificate Application Form</h2>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br>
+
+            <label for="community">Community:</label>
+            <select id="community" name="community" required>
+                <option value="sc">SC</option>
+                <option value="st">ST</option>
+                <option value="obc">OBC</option>
+                <option value="others">Others</option>
+            </select><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
+
